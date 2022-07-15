@@ -48,3 +48,136 @@
         transform: scale(1,1);
     }
 }
+
+
+@media (min-width: 356px) {
+
+    .TimeSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .HeartBeatSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    
+    .HeartBeatSection > p {
+        margin-top: 10px;
+    }
+    
+    .HeartBeatSection > i {
+        color: red;
+        margin-top: 20px;
+        animation: beat 1s infinite;
+    }
+}
+
+@media (min-width: 576px) {
+   
+
+    .TimeSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .HeartBeatSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    
+    .HeartBeatSection > p {
+        margin-top: 16px;
+    }
+    
+    .HeartBeatSection > i {
+        color: red;
+        margin-top: 25px;
+        animation: beat 1s infinite;
+    }
+}
+
+@media (min-width: 768px) {
+   
+    .TimeSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .HeartBeatSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    
+    .HeartBeatSection > p {
+        margin-top: 16px;
+    }
+    
+    .HeartBeatSection > i {
+        color: red;
+        margin-top: 35px;
+        animation: beat 1s infinite;
+    }   
+}
+
+@media (min-width: 992px) {
+    .TimeSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    
+    .HeartBeatSection{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    
+    .HeartBeatSection > p {
+        margin-top: 16px;
+    }
+    
+    .HeartBeatSection > i {
+        color: red;
+        animation: beat 1s infinite;
+    }
+    
+}
