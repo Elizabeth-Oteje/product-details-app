@@ -1,11 +1,12 @@
 .ProductPreview {
     width:100%;
-    position: relative;
+    
 
 }
 
 .ProductPreview > img {
     width: 100%;
+   
 }
 
 .TimeSection{
@@ -51,6 +52,11 @@
 
 
 @media (min-width: 356px) {
+    .ProductPreview {
+        width: 100%;
+    
+        
+    }
 
     .TimeSection{
         position: absolute;
@@ -84,7 +90,11 @@
 }
 
 @media (min-width: 576px) {
-   
+    .ProductPreview {
+        width: 100%;
+        
+        
+    }
 
     .TimeSection{
         position: absolute;

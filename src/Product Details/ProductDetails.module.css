@@ -30,8 +30,13 @@
     border-radius: 8px;
     margin-right: 12px;
     cursor: pointer;
+   
+    
 }
-
+/* .ColorDivision{
+    display: flex;
+    margin: 0 -25px;
+} */
 .SelectedProductImage {
     border: 2px solid teal;
 }
@@ -47,6 +52,7 @@
     cursor: pointer;
     font-weight: 600;
     box-sizing: content-box;
+    
 }
 
 .SelectedFeatureItem{
@@ -65,11 +71,19 @@
 }
 
 
-@media (max-width: 415px) {
+@media (max-width: 420px) {
     .ProductTitle{
         display:none
     }
     .ProductDescription{
         display:none
+    }
+
+    .ColorDivision{
+        display: flex;
+        margin: 0 -43px;
+    }
+    .SectionPick{
+        display: flex;
     }
 }

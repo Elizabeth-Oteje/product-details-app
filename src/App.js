@@ -46,6 +46,10 @@ class App extends Component{
         <Topbar />
       
         <div className={classes.MainContainer}>
+          <div>
+          <h1 className={classes.ProductInnerTitle}>{this.state.productData.title}</h1>
+          <p className={classes.ProductInnerDescription}>{this.state.productData.description}</p>
+          </div>
           <div className={classes.ProductPreview}>
             <ProductPreview currentPreviewImage={this.state.productData.colorOptions[this.state.currentPreviewImagePos].imageUrl} currentSelectedFeature={this.state.currentSelectedFeature}/>
           </div> 

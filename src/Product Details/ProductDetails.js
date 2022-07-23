@@ -37,12 +37,12 @@ const ProductDetails = (props) => {
             <h1 className={classes.ProductTitle}>{props.data.title}</h1>
             <p className={classes.ProductDescription}>{props.data.description}</p>
             <h3 className={classes.SectionHeading}>Select Color</h3>
-            <div>
+            <div className={classes.ColorDivision}>
                 {colorOptions}
                 
             </div>
             <h3 className={classes.SectionHeading}>Features</h3>
-            <div>
+            <div className={classes.SectionPick}>
                 {featureList}
             </div>
             <button className={classes.PrimaryButton}>Buy Now</button>
