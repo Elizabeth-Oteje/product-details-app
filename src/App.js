@@ -29,7 +29,18 @@ class App extends Component{
     this.setState({currentSelectedFeature : pos});
   }
 
+  shouldComponentUpdate(nextProps, nextState){
+   // console.log('Next State => ', nextState)
+    //console.log('Current State => ', this.state);
+    console.log('InsideShould componentUpdate')
+    if(nextState.currentPreviewImagePos === this.state.currentPreviewImagePos){
+      return false ;
+    }
+    return true;
+  }
+
   render(){
+    console.log('Rendering appjs')
     return (
       <div className="App">
         <Topbar />
